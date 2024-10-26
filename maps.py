@@ -10,3 +10,4 @@ work_place_address = "9450 Gilman Drive, La Jolla, CA"
 response = map_client.geocode(work_place_address)
 
 pprint(response)
+print(response[0]['geometry'])
